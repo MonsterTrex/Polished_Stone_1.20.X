@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "polishedstones",
+	"version": "1.0",
+	"name": "Polished Stones",
+	"description": "Provides many more recipes which use stone for new designs and builds",
+	"authors": [
+		"MonsterTrex"
+	],
+	"contact": {
+		"homepage": "*",
+		"sources": "*"
+	},
+	"license": "MIT",
+	"icon": "assets/polishedstones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.monstertrex.polishedstones.PolishedStonesMod"
+		],
+		"fabric-datagen": [
+			"net.monstertrex.polishedstones.PolishedStonesModDataGenerator"
+		],
+		"client": [
+			"net.monstertrex.polishedstones.PolishedStonesModClient"
+		]
+	},
+	"mixins": [
+		"polishedstones.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.monstertrex.polishedstones.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PolishedStonesMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
